@@ -1,0 +1,86 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1930689829233244}
+  m_IsPrefabParent: 1
+--- !u!1 &1930689829233244
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4825172156110638}
+  - component: {fileID: 114887413567792478}
+  - component: {fileID: 114481785840498758}
+  m_Layer: 0
+  m_Name: Manager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4825172156110638
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1930689829233244}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114481785840498758
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1930689829233244}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b4bbf2831d82b1c4ca013d0b308e1258, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  timeBtwnSpawn: 10
+  currentBlock: {fileID: 0}
+  spawnningBlock:
+  - {fileID: 1255918801289244, guid: 89d0ba57421baa04f90905ff9324df71, type: 2}
+  - {fileID: 1396227653383322, guid: c3080b6eb893c494c990bea709fd8d4d, type: 2}
+  - {fileID: 1370156973728530, guid: ba4a0aa79cdb535459d5d4dabaa303c4, type: 2}
+  - {fileID: 1241021990809524, guid: b475f654fde415442a9016293cc3ab99, type: 2}
+--- !u!114 &114887413567792478
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1930689829233244}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c17c8033085a82c41a052fb0a3dbd8b1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  coinText: {fileID: 0}
+  coinTextMenu: {fileID: 0}
+  scoreText: {fileID: 0}
+  HighscoreText: {fileID: 0}
+  canvas:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  audio: {fileID: 0}
+  coins: 0
+  score: 0
+  HighScore: 0
+  gameStart: 0
+  gameOver: 0
